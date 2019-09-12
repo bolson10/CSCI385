@@ -1,0 +1,10 @@
+---
+title: "Example"
+output: html_notebook
+---
+
+*Quakes*
+```{r}
+eq <- data(quakes)
+print(summary(quakes))
+```
